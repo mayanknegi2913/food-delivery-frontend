@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <?php include("header.php");?>
+    
+
+   <section class="banner">
+        <div class="banner-section" >
+            
+            <h1>Welcome to Foodies</h1>
+            <p>Your favorite food, delivered fast!</p>
+        </div>
+    </section>
+    <div class="sidebar">
+    <h3>Menu Sidebar</h3>
+    <ul>
+        <li><a href="#pizza">Pizza</a></li>
+        <li><a href="#burger">Burgers</a></li>
+        <li><a href="#salad">Salads</a></li>
+    </ul>
+</div>
+</section>
+   
+<section class="head-nan">
+    <div class="container">
+        <div class="row">
+            <!-- Menu Section -->
+            <div class="col-md-6">
+                <section class="menu" aria-label="Menu">
+                    <h2>Menu</h2>
+                    <img 
+                        src="https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU=" 
+                        alt="Cheesy pepperoni pizza being served" 
+                        class="img-fluid" 
+                        loading="lazy">
+                    <img 
+                        src="https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg" 
+                        alt="Plate of fresh salad" 
+                        class="img-fluid" 
+                        loading="lazy">
+                </section>
+            </div>
+
+            <!-- Order Section -->
+            <div class="col-md-6">
+                <section class="burger" aria-label="Order Section">
+                    <h2>Order</h2>
+                    <img 
+                        src="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/master/pass/Smashburger-recipe-120219.jpg" 
+                        alt="Delicious smash burger on a plate" 
+                        class="img-fluid" 
+                        loading="lazy">
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+</section>
+
+<?php include("footer.php");?>
+
+    </body>
+    </html>
+
+
+
+

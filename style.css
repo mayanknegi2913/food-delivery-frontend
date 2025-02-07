@@ -1,0 +1,223 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://www.shutterstock.com/image-photo/healthy-meal-diet-plan-daily-260nw-1756843007.jpg'); 
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center center;
+}
+
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 140px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    position: relative; /* Allow the sidebar to scroll with the page */
+    width: 200px;
+    
+    color: #fff;
+    
+    
+    box-sizing: border-box; /* Include padding in the height */
+    float: left; 
+    
+       
+}
+
+.sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    
+}
+
+.sidebar ul li a:hover {
+    background-color: #ff6347;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+}
+
+/* Flexbox Layout for Menu and Order Sections */
+.head-nan {
+    display: flex;
+    gap: 20px;
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+.menu, .burger {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu img, .burger img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.menu h2, .burger h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between; /* To space out the logo and the nav */
+    align-items: center; /* Centering items vertically */
+    background-color: #333; /* Dark background for the header */
+    padding: 20px 40px; /* Padding for spacing */
+    color: white;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px; /* Adds space between navigation items */
+}
+header .logo img {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto; /* Maintain the aspect ratio */
+}
+nav a {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 5px;}
+
+    .header .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+
+/* my css */
+
+section.menu-wrapper .menu-link-wrap ul {
+    background: #dddddd4d;
+    padding: 20px;
+}
+
+section.menu-wrapper .menu-link-wrap ul li {
+    list-style: none;
+}
+
+section.menu-wrapper .menu-link-wrap ul li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    display: block;
+    color: #000;
+}
+
+section.menu-wrapper .container .row {
+    display: flex;
+    gap: 20px;
+}
+
+section.menu-wrapper .container .row .col-md-4 {
+    width: 30%;
+}
+
+section.menu-wrapper .container .row .col-md-8 {
+    width: 70%;
+}.menu-card-wrap {
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.menu-card-wrap h2 {
+    padding-bottom: 11px;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 20px;
+}.menu-link-wrap {
+    position: sticky;
+    top: 0;
+}section.menu img {
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
